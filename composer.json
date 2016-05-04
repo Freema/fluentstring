@@ -1,0 +1,26 @@
+{
+	"name": "freema/fluentstring",
+	"type": "library",
+	"description": "Fluent Nette strings",
+	"homepage": "https://github.com/Freema/fluentString",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tomáš Grasl",
+			"email": "grasl.t@centrum.cz",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"nette/utils": "~2.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Freema\\fluentString\\": "src/"
+		}
+	},
+	"require-dev": {
+		"tracy/tracy": "~2.0",
+		"nette/tester": "~1.0"
+	}
+}
